@@ -1,0 +1,41 @@
+.header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+}
+.d-sm-flex {
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.hero {
+  display: flex;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-left: 50px;
+}
+.hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.hero-wrap {
+  z-index: 99;
+  border: 2px solid lightgray;
+  border-radius: 35px;
+}
+.text-right {
+  width: 450px;
+}
+.navbar-bottom {
+  padding: 20px;
+  border-top: 1px solid lightgray;
+}
+.footer-text {
+  color: lightgray;
+}
+.name {
+  color: #7f6b6b;
+}

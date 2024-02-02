@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronic Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-xl navbar-light bg-light mx-auto">
+        <a class="navbar-brand" href="#">Techo Word</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-wrap">
+        <h1 class="hero-title">Це наш магазин електроніки</h1>
+        <p class="text-right">
+          У нашому магазині ви можете знайти нові смартфони і ігрові ноутбуки. У
+          нас є моделі різних розмірів, якості тощо. У нас найнищі ціни, добрі
+          працівники. Запам'ятайте нас Techo Word.
+        </p>
+      </div>
+      <img
+        src="https://media.istockphoto.com/id/1328836875/uk/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%96-%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F/%D1%80%D0%B5%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%96-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%96-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%BE%D1%97-%D1%82%D0%B0-%D0%B3%D0%B0%D0%B4%D0%B6%D0%B5%D1%82%D0%B8-%D0%B2-%D1%96%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%97-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0-%D1%96%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0.jpg?s=612x612&w=0&k=20&c=WR_fpp02Ou40BG1tF9iimtWORvbHQV39mlMgjecaGBQ="
+        alt="..."
+        class="hero-img"
+      />
+    </section>
+    <section class="d-sm-flex pb-5">
+      <div class="card" style="width: 18rem">
+        <img
+          src="data:image/jpeg;base64,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L5dx/Ceoqn0Z3BPUgMFFUBZvo7uCeopuDuC7qKAxIsu4O4Luoqu4O4J6igMKrRZdxdwT1Ku4O1HqQGNoSiyiC7UepNydqPUgMVFaQs+5u1HqVu5O4J6igMBCsIUgwncE9RVhhO1HqQEchYypLoLuCepYzAdwT1IDAgCymXdwT1IIDuCeooDY2I3fjnXvoR3oXhbIFHCuHPgvXMnIdPLb2gpQKzRX1Pau2SbvBMtEPjYAFK5vhZA8pbg0/wBOtfJJiYbwh1rHZVsvlY7JmFnDNSK0Dm/iaeQj+NShg6Zqi89/iyF+XE/0+9FFiSfP2HLRvtYENx4V2ju0KH0rzk9tcSzsYT3wzqNIjfTj6V7ZFAPjkbadj1JbNQjic4b2+olRX7T07ojyx591H9pX21FNwfCIu1HaQ8l0qf64g/sUY7U1rf8Aa9675a6ARLg598Elra5XvD8tPBHa2uV7x3y10EiXBz94IbV1yveO+WnghtXXK9475a6BRLg588EVra5bvHfLTwQ2rrlu8d8tdBolwc+eCC1dcr3jvlqvgftXhS3eO+WugkS4OffA/avClu8d8tWnaetXXK9475a6ERLg568EFq65XvXfLVPA/a2uV713y10MiXIsc8+B+1tcr3rvlqvgetXXK9675a6FRLixz34HrV1yveO+WngdtXhSveO+WuhES4sc+jadtThSveP+Wr27T1p6XSveP+Bff0S4sfB4e0xPnyo0sOmKf7FLh7SMwfKnII5oT3etwX21EuLHzaydqOXYBu8eJEIGIYBCafWfSvWWZsRkYFDDlodRk5w3R/PefUhb1FBJZcGodSK9EAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREB/9k="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Ноутбук Acer Nitro 5</h5>
+          <p class="card-text">
+            Відмінний ІГРОВИЙ ноутбук! Екран - 15.6", 1920х1080 (FullHD), IPS /
+            Процесор - Intel Core i5 11400H (2.7 - 4.5 ГГц) / Оперативна пам'ять
+            - 8 ГБ
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://img.moyo.ua/img/products/5258/70_1500.jpg?1705846559"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Ноутбук 2E Imaginary 15 (NL50MU-15UA33)</h5>
+          <p class="card-text">
+            Ноутбук 2E Imaginary 15 (NL50MU-15UA33) Intel Core i5-1155G7 / RAM
+            32GB / SSD 1024GB.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEQEBAODhAQEBAODg4ODhAODhAODg4OFxMYGBcTFxcaICwjGhwoHRcXJDUkKC0vNDIyGSI4PTgwPCwxMjEBCwsLDw4PGRERHC8gICAzMTExMTExMS8xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEvMf/AABEIAK0BJAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBQQGBwj/xABTEAACAQEDBAgPDQUHBQAAAAAAAQIDBAUREhQhkQYXMVFSU5PSBxMyQVRVYWJxcpWhsbLRCBUWIiQzQnSBgpSzwiM1ksHhJTZDZHODoiY0ZXXw/8QAGwEAAgMBAQEAAAAAAAAAAAAAAAECAwQFBgf/xAA2EQACAQIBCAgHAAEFAAAAAAAAAQIDEQQTFCExUVKh4RJBYWJxkbHwBSIyM4HB0UIGFSRysv/aAAwDAQACEQMRAD8A7MAAAAa1s32VQumyZxKPTKtSXS6FLHDLqYY6X1klpZspx3o/t5FgXWy67w7uERMaNXr9F29pSbjKhBN6Ixop4LexbZFts3xx1HkIFJduxqVoowrqsoqeV8V028MJNbuPcMr4Gz7IjyT9oWRtjgMVKKlGGh6dcf6WO2ze/G0fw8A22b446jyECu+Bs+yI8k/aHwNl2RHknzgsiX+24zc4x/pY7bV78bR5CAbbN78bR5CBjU9hMXu2yMfHs+jzSZlU+h05dTbqL7ipPK1ZRZGjKX06fyv6Yq8amH01oyitri7edrcRNtq9+No8hANtq9+No8hAk2tZ9lw5GXOGvobT7LhyMucTzWru8eZlzyjvcOQ3bavfjaPIQDbavfjaPIQF2uJ9lw5GXOEfQ5n2XDkZc4M1q7vHmGeUt7hyDbavfjaPIQDbavfjaPIQE2up9lw5GXOEfQ8n2VDkZc4eaVd3jzDPKW9w5Dttq9+No8hANtm9+No8hAY+h7PsqHIy5w19D+fZUOSlzhZrV3ePMM8pb3DkTbbN8cbR5CAm21e/G0eQgQvYDPsqPJS5w17Ap9kx5J84eaVd335hnlLe4cjI22r342jyEA22r342jyEDGewSfZMeSfOGvYNPsiPJPnBmlXd48xZ7R3uHIy9tm9+No/h4BttXvxtHkIGF8CJ9kR5N84a9hUuyI8m/aGaVd3jzDPaO9w5GfttXvxtHkIBttXvxtHkIFc9hsuPjyb9oj2Hy4+PJv2jzOru8eYZ9R3uHIsttq9+No8hANtq9+No8hAq/ghLsiHJv2jXsSlx8OTftDM62778xZ9R3uHItttm9+No8hANtq9+No8hAqHsUlx8P4H7Rr2LS4+H8D9oZlW3ePMM+o73DkXO21e/G0eQgKui1e/G0X/sRKP4MS4+H8D9ofBmXHQ/gftDM627x5hn1He4cjqfQ96J1S22iFit8KcatbFUatJOMZTSxyZR04PBbp1c8sbFqLo3xY4ZWLhbKKxWjHFr2nqcztOLafUaU1JKS6wAAAAAAAAAAAAOOdH/qbB41f0ROxnHOj/1Ng8av6IiY0UexKljYLO+5V/NkW7pGBsOX9n2f/d/NkXLiYpVWpM9lhH/x6X/WPojDdMR0zLcRjgTjUNNzGyBMlrcbXgMhwEyCzpE4ya1D6VuqR+k5LenjJGdRvJS0TTXi6V59JXZAjgXQxdSGp+ek5uK+EYLE6Z00ntj8r4aH+Uy7U4tYpprvXuDGyphJxeMW/seSZdG1p6JrTvr+Z0KPxCE9E/lfDkeUx/8ApmvRvPDvKR2apL8apfjT3TKct8TFEbljpWDT3twZJnQPMkrQxxIXN74jqvfGFyVxI3AY6z7moTON9agC450xkoPuAqqe4DmAiOVN7xDNE7mNdQkRMWQyRkzhF7mj0EM4NeDfQ0JogkRyJJEciQhkiNkkiNgA1jGPYxgBS3P+/LN9cofpPUJ5duf9+Wb67Q/Seojztb7s/H9s9NR+zDw/SAAAgTAAAAAAAAA450f+pu/xrR6IHYzjfR/6m7/GtHogJjRUbDZrMKC3lV/NkX6Zp2xiu42Wgv8AU/MmbLZ7SmYa1NqTZ7jDUmsNSfdj6IzMBGgjLEeVJjI8kMgkEwJ9ICNxEySXAMA6Q7kOSNcCdoRxF0h9Iip1HHRureelIz6NmnUjlU1l4dUsVlx8KMOUQs9edKanCWDWprea66NmFx06OjXHZ/P5qOP8T+DUMdea+Wpt29ktvjrXatBJVhKLwnGUXvSi0/OQSNqsF8Ua6UauTTnuNT0U2+43ueB+czql1UJaXShp66SWOo7dPGQmro8TiPhdahPoz0PtWvwa0P8ABorI5G6yuCzv/Dw8E6ntGe8NBf4ePhnU9pZnEDPmVTs9/g0mQ3La/qb0rmo8TD7cX/MbO5aD3aMPsbXoY84iGZT2rj/DRXVe8I63cZttr2M0pJ9Kcqb62l1Ianp85r1quS0U2/2bml9Kl8dP7N3zE41YyKZ4eceq/gYfTVviqoQVIOLwknF70k4vUyIsKLGXLJf9CKVPeesi6Yx6qkrisMlB/wDzIpRe8TOY1sdxWMeUXvDJGQxrGFjXro/flm+u2f8ASeojy/dP79s312z/AKT1Aedq/dn4/tnpqP2YeH6QAAECYAAAAAAAAHHOj/1F3+NaPRA7Gcd90B1F3+NaPRATGjS7g/7Wh4J/mzLajWcWVVwx+SUfBU/MmWApxufRsA08JRXcj/5Rd2a0YmbGRrtCtkstbPXxMNSnZ6CutRtqLAUijUHKRTczND8AwBMcFxCBgLgGAriuRyiMlEnwGSiO4JmM4mRZrdWpfN1ZxW8njHU9A2URjiNSa1E3aS6Mldduku7LsnnHRVpxmuFBZMtW4/MXlivSjW0QlhLdcZrJmvs6/wBhorQibTTTaa0prQ098ujiakeu5z63wrD1F8q6L7NXl/LHSkkxelGoXffMtEKksHuRluJ+HulzTvCa6+Jcseo/UjiVvhc4O1yzlRI5UCGne/Dhj3YsyIXjQlutx8aL/kXwx9F/5W8dHqYp4KtH/G/hpMW0WONRZNSEZx3pxUl5zXbw2KU5YyoydJ8GWM6ftXnNzU6c+pnB9xSWOoWVnN1PEdcWYatBPRNHJ7bc1oo45dKTS+nT/aR8OjSvtwK1vrHY5WYxa9ghPq6cJ+PCMvSjVHFrrRjlgt1nJsoMo6bUuGzPds9L7sIx9BhVdi9ll/hOPiVKi82OBasTApeDn1NHPmxGzcrRsOpP5qpUg+/Uai82BUW3YvaaWMoKNWK4vHLw8V/yxLY1oPrKpYarHqv4GjXT+/bN9ds/6T1AeYLpi1f1mTTTVuoJprBp/F0Hp84VX7s/H9s79H7MPBeiAAAgTAAAAAAAAA477oDqLv8AHtHogdiOO+6A6i7/AB7R6ICY0ahseXySh4J+vMz5RK/Y6/ktH7/5ki0L3C6R7D4fiLUacdiXoQNElKs4iuIyUDPOnc7MaqmtJZUbWn1zJjWKLSiSFeSMkqJGVFPUbBGqSxma/G2NGRTvDfKZUmVyw8uovIyHFXTt8euzLp2lS3GVOLWszSpSXUZIjQkZjhFRG4jGidoY0O40yFoY0StDWguWJkbJ6FtqQ0J4rgy0r+hA0IJ2esbipKzLilesX1cGu7F5SM2jXhPqJJ9zceo1sciidCL1aDNPCwerQbO4C06k49ROUfFk0iost4yj8WpjKO/9Je0tqc4zWVF4ruGOUJUnfV2ox1YSjolpXAy4XnWj9JS8dJ+dYMyIXvxlL7YS/k/aV2SGQXU8dXhqm/zp9TJPDUZ64r09C5pW6jP6WS96ayfPuE7pprFYNdZrSjXnAWnOcHjCWT4HofhXXN9L4xNfcjfw0cOZkqfDYP6JW8ff6LuVIY6RiUL2a0VI499DQ/tRYUqtOp1Ek+5uNfYdehjaVbRB6dmp+/DR2nOq4SpS+paNvV78TiFvWGyuK/8AIWX1YHoo873po2WL/wBjZfUgeiAf1MF9K97AAAAAAAAAAAAAOO+6A6i7/HtHogdiOO+6A6i7/HtHogJjRpmx9/JaX3/XkWaZU3A/k1L7/rss4s2xXyo7WFqWjHwJMQETDEi4nZpVgaEcRwFMqaN8KxHkhgS5ImSUypmmNQjFU2txteB4D8kTArdMtU0zIpXjOPXxW9JfzLGz3rB6JYxe+9MdZSZIZJTKin1Fc6FKetW8DbIVFJYppp7jTxTFZq1GvODxjJruLcfhRZ2W9k9FTQ+FHqftXWKJUZLVpMVTCTjpjpXEs2hjQ6NRSSaaae408UxGUmdEckNaJGNYFiGCgIIla5IiWlVlF4xbT7jwMdMepCaISjosWdO85rqlGXhWnzGXRvKDeElk93HFFIpDlIolQg+oyzw8H1WNnST0rSnuYbmAkolVYLdkfEnpj1uu4/0LPOab+nH+JIySpyizDOnKDsxkokUlhpRLKtT4cdZG6kXuSWsj0XsJRuctqSb2T02223b7Npel9TA9Hnm6X95qf1+zerA9InqaDvTj4I8/W+uXiwAALioAAAAAAAADj3ugPm7v8e0eiB2E497oD5u7/HtHogJjRo9xP5NS+/67LFMrLjfyel9/12WKZ0IfSjo0Z2SJUxyZEmOTFY6FOqSYgmNxFTE0bIViRMVEaY9Mg4GqFYdgJkioUr6BeqwxxEcR4gnAtjXI3ERxJcBuBB0y2NYWjXnB4xeG+t2L8KLGheaeiawe+tMf6FZgI4meph1IclTqa9ZsMaqelNNdwGyhpzlF6G16GZlO2P6S1GSeHktRQ6FtTuWLY1kEbQn1x3Tilwa1kei0SipkSqCqZGzCxMpD1IhUh2IrELEqmPVQxnMa6gujcWTuZyqD41SuVUfGqR6BF0jTaTx2S0X/AJ6y+iB6UPNNkeOyOg/87ZfRA9LHZp/SvBHi8QrVJrvS9QAALCgAAAAAAAADj3ugPm7v8e0eiB2E497oD5u7/HtHogJjRodxv5PT+/67LDErLlfyen9/12WCZ0YfSi+MtCJUxUyNMcmSNEKpImOTIUxyYrGiNcmTHqRAmOUiLiXRxBMpC5RFlBlCsWrEkuUGJFlC5QrFqxJJiKRZQ7KCxdHFDwwGKQ5Mj0DRHEi4C4AmKQdMtWIFQ5TY1Clbopk1XHdMYqrsYJgUywyLVXi9aMiNpJM5MPAMCmWFJqVNmU6411TGaE0kMjYsUY9Rk9NHKsYeImURdIl0EUl2yx2Q2d79ts3oiemjzHdL/wCoLN9es36T04a49Xgj55jFavUXel6gAASMwAAAAAAAAHHuj/8AN3f49o9EDsJx73QHzd3/AOpaPRATGjntzP8AYU/v+szPUisul/saf3vWZnKZ0qa+VFLq2didMemQRkPUidiUaxMmKmRJjlIC1ViRMXEjyhcRWJqsPxFyiPEXECeWH5QZQzEMRWGsRYkUh2URYgpBYsjiCZSHKRBiKpCsXRxJkKQqmY6kLlB0S6OL7TIyxcox8oXKF0SxYwyFMXExsoXLE4k1jTJxFxMdTDLIOBdHGoyMQIVMVTK3TNEMctpJgNcRMoMoplSNUMctpQ3R/eCzfXrP+k9OHmK5/wB/2b67Zv0np0h1nj8S+lVm9speoAADM4AAAAAAAAHHvdAfN3f/AKlo9EDsJyPo808qnd/WXTbQse7kx0eZiY0cxux/sofe9Zmama8rMuFIM27+Ws1xxNklb35GaVG7bv78zY0yRM1nNu/lrDNu/lrJZ13ePIWQe978zaExykarm3fy1iZv38tYZ13ePIaovbw5m15QZRqmb9/LWGb9/LWLOu7x5DyT28OZtmULialm/fy1i5t38tYZ13ePIeTe3hzNsxDE1LN+/lrDN+/lrDOu7x5DyctvDmbdlCqRqUbLi0suWlpbu+W3wXrYpdMg4vK+NGeUlhjh1uuo4p7mlbjaTM6W7x5DVOW0uMoMoop7Hq0Y5TnHDLhT+cWlyeCl4MVq09S03i2265UZ5E6mLcVNOE8qLi20nj9gs6W7x5ErS2mz5QuUafm3fy1hm3fy1jznu+/ILS2m4ZYZZp+bd/LWGbd/LWLOe778h/NtNxygyjTs27+WsM27+WsM57vvyHeW03LKDKNNzbv5awzbv5awzhbvvyH0pbTc8sVTNLzbv5awzbv5axZwt335ElUmus3VTHZZpGbd/LWGbd/LWJ1ls9+RNYia6y/uPTf1l+u2f9J6ePLmwqz4Xrd7TbeeUt3r6T1GZ3rZW3fSAAAEQAAACitV12lVJ1bNa5fHk5dKtGXUpRb60HFrJXcwZhV696092hTq4dejVTWqTT8xtQEHBMmqjWw0atftvh1dltK33Gz1pxX2xxRT3jsghXShbLPSrRg8qMbVZemKEtzFKaeDOmzinupPwjHZab3YR1Ijku1k8t3Ucjduu7tdd/k6jzQz67u193/gKPNOt5nS4uOoMypcCOoMm9rHl+6jkmfXd2uu/wAn0eaJn13dr7v8nUeadczKlwI6gzKlwI6gyb2jy63Ucjz+7u193+TqPNDP7u7XXf5Po8065mVLgR1BmVLgR1Bk3tYsut1HJM/u7tdd/k6jzQ98Lu7XXb5Oo8063mVLgR1IMypcCOpBkntDLLdRyT3wu7tddvk6jzQ98Lu7XXb5Oo8063mVLgR1IMypcCOpBkntFlluo5Krxu7tddvk6jzSOzWq7oZWN32KplSlLGdjpPJxeOC+LoS6yOvZlS4EdQZlS4EdSDJPeHlluo5OrwuztZYPwVHmi++F19rLB+Co806vmVLgR1IMypcCOpBk3tDLdhyj3wuvtZYPwVHmh74XX2ssH4KjzTq+ZUuBHUgzKlwI6kGTe0Mt2HJpW+7Hj/ZthWP+TpaP+JFZ7Zd0I5OYWCemTyqlgozlpeOGOTuLrHXsypcCOpBmVLgR1IMm9oZZbqOSe+F3drrt8nUeaHvhd3a67fJ1HmnW8ypcCP8ACgzKlwI/woMk9osqt1HJPfC7u113eTqPNDP7u7XXd5Ooc063mVLgR1IMypcCOpBkntDLLdRyTP7u7XXf5Oo80XPru7XXf5Po8061mVLgR1BmVLgR1IMm9rHl1uo5Hn13dr7v8n0eaLn13dr7v8n0OadbzKlwI6gzKlwI6gyb2sMut1HJM+u7tfd/k+hzQz67u193+TqPNOt5lS4EdQZlS4EdQZN7Qy63Ucsst6WOlONSjYbHTqQeMKlGwU4VIPfjKKxTLyjsmtdT5uhaKndhZ68lrRu+Z0uBHUPjQgtyKXgQZLtYZbuo1Sjb7zn1Flmu7Vcaa/5STM2NkvKssKtahZ4viFVnVw8OMUnrNjAkqa2sg6r6kl+DGsNm6VTjSc51XBYOpVllVJvdxbFMgCdkVn//2Q=="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">
+            Ноутбук Apple MacBook Air M1 Chip Gold (MGND3)
+          </h5>
+          <p class="card-text">
+            Процесор: Apple M1Об’єм оперативної пам’яті: 8 ГБОб'єм накопичувача:
+            256 ГБДіагональ екрану: 13.3Роздільна здатність екрану: 2560×1600Тип
+            матриці: IPS
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://images.unian.net/photos/2023_11/thumb_files/400_0_1699270555-7748.jpg?r=843854"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">iQOO 12</h5>
+          <p class="card-text">
+            На тильній стороні пристрою розміститься потрійна камера, що включає
+            основну камеру OmniVision OV50H на 50 МП, надширококутну камеру
+            Samsung JN1 на 50 МП та телеоб'єктив OmniVision OV64B на 64 МП з
+            оптичним 3Х зумом та цифровим зумом.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KLEsPTyQu2UYomHL2HixBe7AJaGyfsJXeRsA6xPx5CjHA_bBQ77fXiZjlH1RbWJLRk0&usqp=CAU"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Samsung Galaxy A34 5G</h5>
+          <p class="card-text">
+            Яскраве та чітке зображення навіть на сонці 6.6" Super AMOLED екран
+            з яскравістю 1,000 ніт забезпечує яскраве та чітке зображення навіть
+            під прямим сонячним промінням. А частота оновлення екрану до 120 Гц
+            гарантує захоплюючі враження від перегляду улюбленого контенту.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://cdn.benchmark.pl/thumbs/uploads/article/88853/MODERNICON/a5cdf82a4a3050e04ce9889ce55d745e1ae3dde6.jpg/320x0x1.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Мобільний телефон Poco X5 Pro</h5>
+          <p class="card-text">
+            Екран (6.67", AMOLED, 2400x1080) / Qualcomm Snapdragon 778G (2.4 ГГц
+            + 2.2 ГГц + 1.9 ГГц) / потрійна основна камера: 108 Мп + 8 Мп + 2
+            Мп, фронтальна 16 Мп / RAM 8 ГБ / 256 ГБ вбудованої памʼяті / 3G /
+            LTE / 5G / GPS / підтримка 2х СІМ-карт (Nano-SIM) / Android 13 /
+            5000 мА*год
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+    <footer class="navbar-bottom">
+      <p class="footer-text">
+        Покупайте нашу техніку <span class="name">Techo Word</span>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
